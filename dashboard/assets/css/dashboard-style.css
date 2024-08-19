@@ -1,0 +1,101 @@
+body {
+  background: #f8f9fa;
+}
+
+.dashboard {
+  padding: 100px 0;
+}
+
+.profile-pic {
+  position: relative;
+}
+
+.profile-pic-img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 10px auto auto;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile-pic-img img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg-success {
+  background-color: #05a01f !important;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 1.5rem 1.5rem;
+  position: relative;
+  height: 100%;
+}
+
+.item1-links a {
+  border-right: 3px solid transparent;
+  transition: 0.3s all;
+}
+
+.item1-links a:hover {
+  border-right: 3px solid #ff4200;
+  transition: 0.3s all;
+  background: #f1eef799;
+}
+
+.item1-links a.active {
+  background: rgba(241, 238, 247, 0.6);
+  color: #181818;
+  border-right: 3px solid #ff4200;
+  transition: 0.3s all;
+}
+
+.item1-links a.active {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.item1-links a {
+  padding: 0.75rem 1.25rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #181818;
+}
+
+.card-header {
+  /* background-color: rgb(24 24 24); */
+  background: #043da6;
+}
+
+.card-header h5 {
+  color: #fff;
+}
+
+.LeftSidebar {
+  border: 0;
+  box-shadow: 0 0px 10px 0 rgb(26 46 85 / 5%);
+  transition: 0.5s all;
+}
+
+.LeftSidebar:hover {
+  box-shadow: 0 10px 50px 0 rgb(26 46 85 / 10%);
+  transition: 0.5s all;
+}
+
+.MainContent {
+  border: 0;
+  box-shadow: 0 0px 10px 0 rgb(26 46 85 / 5%);
+  transition: 0.5s all;  
+}
+
+.MainContent:hover {
+  box-shadow: 0 10px 50px 0 rgb(26 46 85 / 10%);
+  transition: 0.5s all;
+}
